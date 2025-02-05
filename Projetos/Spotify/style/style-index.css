@@ -1,0 +1,222 @@
+@charset 'UTF-8'; 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --cor01:(#ffffff);
+    --cor02:(#323232);
+    --cor03:(#2a2a2a);
+    --cor04:(#121212);
+    --cor05:(#000000);
+}
+body{
+    background-color: black;
+    font-family: 'spotify';
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+}
+
+#logo-esquerda{
+    width: 150px;
+}
+
+#center-content{
+    background-color: rgba(42, 42, 42,);
+    border-radius: 30px;
+    width: 390px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+#icon-search{
+    position: absolute;
+    left: 458px;
+    opacity: 0.5;
+    width: 40px;
+    height: 40px;
+}
+
+#search{
+    width: 390px;
+    height: 55px;
+    padding: 8px;
+    border: none;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 40px;
+    font-size: 1.1em;
+    border-radius: 30px;
+}
+#search:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+#right-content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    display: flex;
+    transform: translateX(-50px);
+    width:220px;
+    padding: 5px;
+    gap: 20px;
+    color: white;
+    }
+
+    #right-content > span{
+        border-radius: 15px;
+        padding: 13px;
+    
+    } 
+
+#right-content #cadastrar:hover{
+    transform: scale(1.06);
+    background-color: rgba(51, 51, 51, 0.432);
+    transition: .4s;
+}
+#entrar:hover{
+    transform: scale(1.08);
+    transition: .4s;
+}
+
+#entrar{
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}
+
+#biblioteca{
+    display: inline-block;
+    position: absolute;
+    width: 25%;
+    height: 590px;
+    background-color: #121212;
+    color: #B3B3B3;
+    font-family: 'Raleway', serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin-left: 8px;
+    border-radius: 15px;
+}
+
+#biblioteca h2{
+    display: inline-block;
+    margin: 15px;
+
+}
+
+#biblioteca img{
+    display: inline-block;
+    transform: translateY(10px);
+    margin-right: 5px;
+    width: 35px;
+    
+
+}
+
+#principal{
+    display: inline-block;
+    width: 70%;
+    height: 590px;
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Raleway', serif;
+    font-weight: normal;
+    text-align: start;
+    font-size: 0.8em;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin-left: 370px;
+    border-radius: 15px;
+}
+    
+main h1 {
+    display: inline-block;
+    margin: 10px;
+    color: #B3B3B3;
+}
+
+
+.artista img{
+    margin: 40px;
+    display: flex;
+    width: 120px;
+    height: 120px;
+    transform: scale(1.30);
+    border-radius: 50%;
+}
+
+#top4{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+#top4 span{
+    display: inline;
+}
+
+span > h3, h5{
+    margin: 5px;
+    text-align: start;
+    text-indent: 20px;
+}
+span > h3{
+    margin-top: -10px;
+    color: rgb(255, 255, 255);
+}
+.artista{
+    border-radius: 15px;
+
+}
+.artista:hover{
+    transform: scale(1.08);
+    background-color: rgba(128, 128, 128, 0.11);
+    transition: .4s;
+}
+
+
+
+.albuns  img {
+    margin: 40px;
+    display: flex;
+    width: 120px;
+    height: 120px;
+    transform: scale(1.30);
+    box-shadow: 1px 3px 7px 1px rgba(0, 0, 0, 0.589);
+}
+
+#top4a{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.albuns {
+    border-radius: 15px;
+}
+
+.albuns:hover{
+    transform: scale(1.08);
+    background-color: rgba(128, 128, 128, 0.11);
+    transition: .4s;
+}
+
+

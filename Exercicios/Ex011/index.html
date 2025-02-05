@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML%</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente acessar esse site em dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="Imagens/pequena-300.png" type="image/png">
+
+        <source media="(max-width: 1000px )" srcset="Imagens/media-700.png" type="image/png">
+
+        <img src="Imagens/grande-1000.png" alt="Imagem Flexivel">
+
+    </picture>
+    
+    <h1>Reprodução de Audios</h1>
+    <p>Escute esse audio de uma musica reggae</p>
+    <audio preload="metadata" controls>
+        <source src="midia/reggae.mp3" type="audio/mpeg">
+        <source src="midia/reggae.ogg" type="audio/ogg">
+        <source src="midia/reggae.wav" type="audio/wav">
+
+        <p>Seu navegador não é compativel ao audio, baixe o para escuta-lo <a href="midia/reggae.mp3">Clique Aqui Para baixar</a></p>
+
+
+    </audio>
+
+
+
+
+    
+
+
+
+</body>
+</html>

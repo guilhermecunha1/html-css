@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+    body{
+    font-family: 'Montserrat';
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #00007a;
+    background-image: linear-gradient(to left, #5A7D7C, #A0C1D1);
+    }
+    main{
+    
+        background-color: #DADFF7;
+        box-shadow: 5px, 5px, 15px black;
+        width: 1270px;
+        padding: 20px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    h2{
+        color: #72B01D;
+        font-family:'Caveat';
+        font-weight: 700;
+
+        
+    }
+    picture{
+        margin: auto;
+    }
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center  ;
+        font-size: 2800;
+    }

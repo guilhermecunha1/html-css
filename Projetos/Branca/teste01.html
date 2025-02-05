@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+    @font-face {
+        font-family: 'MinhaFonte';
+        src: url('../fonts/minha-fonte.woff2') format('woff2'),
+             url('../fonts/minha-fonte.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    body {
+        font-family: 'MinhaFonte', Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">FashionStore</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="cart"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Bem-vindo à FashionStore</h2>
+            <p>Encontre as melhores tendências em moda aqui!</p>
+            <a href="#produtos" class="btn">Confira Agora</a>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <div class="container">
+            <h2>Produtos em Destaque</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="img/camisa.jpg" alt="Camisa Estilosa">
+                    <h3>Camisa Estilosa</h3>
+                    <p>R$ 99,90</p>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <img src="img/vestido.jpg" alt="Vestido Casual">
+                    <h3>Vestido Casual</h3>
+                    <p>R$ 129,90</p>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <img src="img/jaqueta.jpg" alt="Jaqueta Moderna">
+                    <h3>Jaqueta Moderna</h3>
+                    <p>R$ 199,90</p>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <img src="img/calca.jpg" alt="Calça Jeans">
+                    <h3>Calça Jeans</h3>
+                    <p>R$ 149,90</p>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma loja de roupas dedicada a oferecer as últimas tendências da moda com qualidade e preço acessível. Nossa missão é fazer você se sentir bem e confiante com o que veste.</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FashionStore. Todos os direitos reservados.</p>
+            <ul class="social-links">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

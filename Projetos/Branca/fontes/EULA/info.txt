@@ -1,0 +1,14 @@
+* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Masiode ////////////////////////////////////////// *
+*                                                                                            *
+* Masiode is a sans-serif typeface available in two weights: light and regular.              *
+* Masiode also has rounded version, these two versions had been submited on dafont.com only! *
+* Masiode family is free for both personal and commercial use.                               *
+* ENJOY!                                                                                     *
+*                                                                                            *
+* Copyright © 2014. Khiro. All Rights Reserved                                               *
+*                                                                                            *
+* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Khiro /////////////////////////////////////////// *
+
+NOTE:
+The fonts in TTF format include kerning only.
+The fonts in OTF format include kerning and GPOS table.

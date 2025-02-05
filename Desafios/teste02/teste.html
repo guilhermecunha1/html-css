@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Fundo com imagem</title>
+    <style>
+        body {
+            margin: 0; /* Remove a margem padrão */
+            height: 100vh; /* O fundo cobre toda a altura da tela */
+            background-image: url('imagem.jpg'); /* Substitua 'imagem.jpg' pelo caminho da sua imagem */
+            background-size: cover; /* Faz a imagem cobrir toda a tela */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Impede que a imagem se repita */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .conteudo {
+            font-size: 24px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente atrás do texto */
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="conteudo">
+    <p>Texto com fundo de imagem cobrindo toda a tela.</p>
+</div>
+
+</body>
+</html>
