@@ -83,10 +83,10 @@
     border-radius: 15px;
     height: 250px;
     width: 250px;
-    box-shadow: 1px 1px  15px rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 1px  12px rgba(0, 0, 0, 0.356);
 }
 .container:hover{
-    transform: translateY(-20px);
+    transform: scale(1.06);
     transition: .5s;
 }
 .container img{
