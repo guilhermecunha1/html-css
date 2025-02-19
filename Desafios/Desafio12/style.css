@@ -1,8 +1,13 @@
 @charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
+}
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Tinos", serif;
 }
 html, body{
     min-height: 100vh;
@@ -24,7 +29,8 @@ h1{
 
     /*Estilização Do Titulo*/
     font-variant: small-caps;
-    font-size: 2.5em;
+    font-size: 4vw;
+    font-family: var(--fonte2);
 }
 
 header a{
@@ -53,6 +59,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px ;
+    font-family: var(--fonte1);
 }
 section.normal{
     background-color: white;
@@ -63,9 +70,10 @@ section.image{
     color: white;
 }
 section.image > p{
+    display: inline-block;
+    padding: 5px;
     background-color: rgb(51, 51, 51);
     border: 1px solid black;
-    width: 350px;
 }
 
 footer{
