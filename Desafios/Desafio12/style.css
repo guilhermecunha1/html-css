@@ -17,7 +17,7 @@ header{
     position: relative;
     background-color: black;
     color: white;
-    height: 150px;
+    height: 160px;
 }
 
 h1{
@@ -29,7 +29,7 @@ h1{
 
     /*Estilização Do Titulo*/
     font-variant: small-caps;
-    font-size: 4vw;
+    font-size: 4.5vw;
     font-family: var(--fonte2);
 }
 
@@ -39,12 +39,14 @@ header a{
     left: 50%;
     top: 50%;
     transform: translate(-50%, 70%);
-    margin-top: 5px;
+    margin-top: 8px;
 
     /*Estilização Do Link*/
     color: white;
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: normal;
+    font-size: 1.1em;
+    letter-spacing: 1px;
     border-radius: 5px;
     padding: 2px;
 }
@@ -52,7 +54,7 @@ header a{
 header a:hover{
     background-color: rgba(63, 63, 63, 0.6);
     color: rgb(145, 145, 145);
-    transition: .3s;
+    transition: .25s;
 }
 section{
     padding-top: 10vh;
@@ -61,6 +63,10 @@ section{
     padding-left: 30px ;
     font-family: var(--fonte1);
 }
+
+section p {
+    padding-bottom: 2em;
+}
 section.normal{
     background-color: white;
     color: black;
@@ -68,12 +74,28 @@ section.normal{
 section.image{
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 0px 1px 13px 1px rgba(0, 0, 0, 0.9);
+    background-attachment: fixed;
 }
 section.image > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgb(51, 51, 51);
-    border: 1px solid black;
+    background-color: rgba(51, 51, 51, 0.75);
+    text-shadow: 1px 1px 2px black;
+}
+
+section#img01{
+    background-image: url(../Desafio12/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+
+
+}
+
+section#img02{
+    background-image: url(../Desafio12/imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
 }
 
 footer{
