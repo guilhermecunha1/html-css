@@ -18,18 +18,29 @@
             padding: 15px;
             
         }
+        tbody > tr:nth-child(2n){
+            background-color: rgba(180, 180, 180, 0.541);
+        }
         thead, tfoot{
             background-color: rgb(71, 71, 71);
+            color: white;
+        }
+        caption{
+            padding: 8px;
+            border-radius: 15px 15px 0px 0px;
+            font-size: 1.3em;
+            background-color: rgb(55, 58, 61);
             color: white;
         }
     </style>
 </head>
 <body>
         <table>
+            <caption>Populações Das Unidades Federativas Do Brasil</caption>
             <thead>
                 <tr>
-                    <th>Estado</th>
-                    <th>População</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col" style="width: 50px;">População</th>
                 </tr>
             </thead>
 
@@ -47,10 +58,36 @@
                     <td>Rio de Janeiro</td>
                     <td>17 219 679</td>
                 </tr>
+
+                <tr>
+                    <td>Bahia</td>
+                    <td>14 850 513</td>
+                </tr>
+
+                <tr>
+                    <td>Paraná</td>
+                    <td>11 824 665</td>
+                </tr>
+
+                <tr>
+                    <td>Rio Grande do Sul</td>
+                    <td>11 229 915</td>
+                </tr>
+
+                <tr>
+                    <td>Pernambuco</td>
+                    <td>9 539 029</td>
+                </tr>
+
+                <tr>
+                    <td>Ceará</td>
+                    <td>9 233 656</td>
+                </tr>
+
             </tbody>
 
             <tfoot>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td>0000</td>
             </tfoot>
 
