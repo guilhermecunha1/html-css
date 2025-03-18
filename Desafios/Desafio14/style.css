@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    width: 700px;
+}
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.strong{
+    color: white;
+    background-color: rgb(73, 73, 73);
+}
