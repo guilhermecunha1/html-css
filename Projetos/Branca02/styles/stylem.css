@@ -38,31 +38,16 @@ a {
     text-decoration: none;
     font-size: 1.5em;
     padding-bottom: 5px ;
-    margin-bottom: 5px;
-    text-transform: none;
-    transition: 0.25s ease;
+    margin: 0px 10px 5px;
+    transition: .25s ease;
 }
-
-ul{
-    display: inline-flex ;
-    flex-wrap: wrap;
-    list-style: none;
-}
-
-ul li {
-    text-decoration: none;
-    margin: 0 0.75em;
-    
-}
-
-ul:hover a {
+nav:hover a {
     color: #575757;
 }
-
-ul:hover a:hover {
-    color: #8eaafb;
+nav:hover a:hover{
+    color: #ffffff;
     box-shadow: 0 2px 0 0 currentColor;
+    
 }
-
 
 
