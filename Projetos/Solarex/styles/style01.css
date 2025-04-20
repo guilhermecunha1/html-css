@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  'montserrat', sans-serif;
+    background-color: rgb(222, 248, 210);
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 25px ;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.178);
+}
+
+header > h1{
+    font-size: 24px;
+    flex: 1;
+    text-align: left;
+    text-decoration: underline green;
+    margin: 0px 0px 0px 5px;
+}
+
+header nav {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    flex: 2;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #616161;
+    font-weight: bold;
+}
+
+header > nav > a:hover{
+    color: rgb(0, 255, 0);
+    transition: .3s;
+}
+
+#contato{
+    flex: 1;
+    text-align: right;
+    margin: 0px 5px 0px 0px;
+}
+
+#contato h2{
+    font-size: 14px;
+    font-weight: normal;
+
+}
+
+#apresentação {
+    background-color: white;
+    width: 750px;
+    height: 500px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#apresentação > h1 {
+    margin-bottom: 10px;
+}
+.destaque{
+    color: green;
+}
+
+#apresentação > p {
+    font-size: 13px;
+    text-align: justify;
+    color: rgb(97, 97, 97);
+    margin: 25px 0px 10px 0px;
+}
+
+button{
+    width: 125px;
+    height: 45px;
+    padding: 5px;
+    font-size: 16;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid green;
+    margin-top: 30px;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+    transition: .4s;
+}
+
+#imagens{
+    display: block;
+    margin: 20px;
+
+
+
+}
+#imagens img {
+    width: 200px;
+    height:120px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
