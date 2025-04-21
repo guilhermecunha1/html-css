@@ -1,10 +1,18 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+:root{
+    --cor-principal: rgb(0, 128, 0);
+    --cor-secundaria: rgb(222, 248, 210);
+    --cor-letra: rgb(97, 97, 97);
+    --fonte01: 'montserrat';
+    --fonte02: 'Nunito';
 }
 
 body{
@@ -68,11 +76,13 @@ header > nav > a:hover{
     margin: auto;
     padding: 15px;
     border-radius: 15px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.541);
 }
 
 #apresentação > h1 {
     margin-bottom: 10px;
 }
+
 .destaque{
     color: green;
 }
@@ -96,7 +106,7 @@ button{
 }
 
 button:hover{
-    background-color: green;
+    background-color: #008000;
     color: white;
     transition: .4s;
 }
@@ -114,3 +124,15 @@ button:hover{
     margin-left: 20px;
     border-radius: 15px;
 }
+section{
+    margin-top: 50px;
+
+}
+section h1.destaque {
+    margin: auto;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Nunito", monospace;
+
+}
+
