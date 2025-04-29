@@ -28,7 +28,16 @@ section#telefone{
 
     /*Aparencia*/
     background-color: rgb(184, 33, 33);
-    background: rgb(79, 114, 160) url(../pacote-d013/pacote-d013/imagens/frame-iphone.png) no-repeat;
+    background: url(../pacote-d013/pacote-d013/imagens/frame-iphone.png) no-repeat;
     width: 311px;
     height: 627px;
+}
+
+iframe#tela{
+    position: relative;
+    top: 50.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 269px;
+    height: 472px;
 }
