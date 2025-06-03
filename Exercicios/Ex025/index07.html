@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 007</title>
+</head>
+<body>
+    <form action="" method="get">
+
+        <label for="iest">Estado: </label>
+            <select name="est" id="iest">
+
+                <option value="" selected>-- Seu Estado --</option>
+
+                    <optgroup label="Região Sul">
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="Sc">Santa Catarina</option>
+                        <option value="PR">Paraná</option>
+                    </optgroup>
+
+                <optgroup label="Região Sudeste">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="Sp">Sao Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+            </select>
+
+            <p>
+                <label for="iprof">Profissão: </label>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+
+                <datalist id="lstprof">
+                    <option value="ADM">Administração</option>
+                    <option value="ATL">Atleta</option>
+                    <option value="PGD">Programador</option>
+                </datalist>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
