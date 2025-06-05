@@ -98,7 +98,9 @@ button{
     width: 125px;
     height: 45px;
     padding: 5px;
-    font-size: 16;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
     border-radius: 30px;
     background-color: rgb(255, 255, 255);
     border: 0.5px solid green;

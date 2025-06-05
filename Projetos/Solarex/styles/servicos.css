@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root{
     --cor-principal: rgb(0, 128, 0);
@@ -8,6 +9,7 @@
     --cor-letra: rgb(97, 97, 97);
     --fonte01: 'montserrat';
     --fonte02: 'Nunito';
+    --fonte03: "Courier Prime", monospace;
 }
 
 *{
@@ -16,18 +18,25 @@
 }
 
 body{
-    background-color: var(--cor-secundaria);
+    background-color: white;
     font-family: var(--fonte01);
 }
 
-main > h1.destaque{
+main h1.destaque{
     color: var(--cor-principal);
-    font-family: var(--fonte02);
+    font-family: var(--fonte03);
     text-align: center;
-    margin: 20px;
+    margin: 40px 5px;
     font-size: 24px;
     
 }
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 #cards{
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -35,11 +44,18 @@ main > h1.destaque{
     justify-content: center;
 }
 
+.eco{
+    text-align: start;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+    
+}
+
 #cards > span {
-    background-color: rgba(237, 253, 180, 0.432);
-    border: 1px solid rgb(0, 0, 0);
+    background-color: var(--cor-secundaria);
+    border-radius: 15px;
     width: 300px;
     height: 150px;
-    text-align: end;
-    padding: 10px;
+    padding: 30px;
 }
