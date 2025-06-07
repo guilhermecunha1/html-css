@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
 
 :root{
     --cor-principal: rgb(0, 128, 0);
@@ -10,6 +14,8 @@
     --fonte01: 'montserrat';
     --fonte02: 'Nunito';
     --fonte03: "Courier Prime", monospace;
+    --fonte04:  'Poppins', sans-serif;
+    --fontenum: "Noto Sans Mono", serif;
 }
 
 *{
@@ -36,20 +42,75 @@ main h1.destaque{
     align-items: center;
     
 }
+#title h1 {
+    font-size: 35px;
+
+}
+
+#subtitle{
+    font-family: var(--fonte04);
+    font-size: 32px;
+    margin: 10px;
+}
 
 #cards{
     display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 10px;
     justify-content: center;
+    
 }
 
+
 .eco{
-    text-align: start;
+    width: 38px;
+    height: 38px;
     background-color: white;
-    border-radius: 50%;
+    border-radius: 45%;
     padding: 15px;
     
+}
+.numeracao{   
+    font-family: var(--fontenum);
+    color: rgb(54, 54, 54);
+    font-size: 40px;
+    font-weight: normal;
+
+}
+
+#num01{
+    position: absolute;
+    top: 21%;
+    left: 30%;
+}
+
+#num02{
+    position: absolute;
+    top: 21%;
+    left: 58%;
+}
+
+#num03{
+    position: absolute;
+    top: 21%;
+    left: 85%;
+}
+
+#num04{
+    position: absolute;
+    top: 53%;
+    left: 30%;
+}
+
+#num05{
+    position: absolute;
+    top: 53%;
+    left: 58%;
+}
+#num06{
+    position: absolute;
+    top: 53%;
+    left: 85%;
 }
 
 #cards > span {
@@ -58,4 +119,26 @@ main h1.destaque{
     width: 300px;
     height: 150px;
     padding: 30px;
+}
+
+.card-text{
+    font-family: var(--fonte04);
+    font-size: 16px;
+    margin-top: 15px ;
+    margin-left: 10px;
+}
+
+.more{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.more:hover{
+    text-decoration: underline;
+    transition: .3s;
 }
