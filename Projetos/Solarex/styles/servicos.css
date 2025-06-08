@@ -1,9 +1,10 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Sono:wght@200..800&display=swap');
 
 
 
@@ -13,7 +14,7 @@
     --cor-letra: rgb(97, 97, 97);
     --fonte01: 'montserrat';
     --fonte02: 'Nunito';
-    --fonte03: "Courier Prime", monospace;
+    --fonte03: "Quicksand", sans-serif;
     --fonte04:  'Poppins', sans-serif;
     --fontenum: "Noto Sans Mono", serif;
 }
@@ -24,16 +25,16 @@
 }
 
 body{
-    background-color: white;
+    background-color: #ffffff;
     font-family: var(--fonte01);
 }
 
 main h1.destaque{
     color: var(--cor-principal);
-    font-family: var(--fonte03);
+    font-family: var(--fontenum);
     text-align: center;
     margin: 40px 5px;
-    font-size: 24px;
+    font-size: 22px;    
     
 }
 #title{
@@ -41,10 +42,6 @@ main h1.destaque{
     justify-content: center;
     align-items: center;
     
-}
-#title h1 {
-    font-size: 35px;
-
 }
 
 #subtitle{
@@ -56,7 +53,7 @@ main h1.destaque{
 #cards{
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 10px;
+    gap: 25px;
     justify-content: center;
     
 }
@@ -66,8 +63,8 @@ main h1.destaque{
     width: 38px;
     height: 38px;
     background-color: white;
-    border-radius: 45%;
-    padding: 15px;
+    border-radius: 50%;
+    padding: 153px;
     
 }
 .numeracao{   
@@ -114,7 +111,8 @@ main h1.destaque{
 }
 
 #cards > span {
-    background-color: var(--cor-secundaria);
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.280);
     border-radius: 15px;
     width: 300px;
     height: 150px;
@@ -122,7 +120,7 @@ main h1.destaque{
 }
 
 .card-text{
-    font-family: var(--fonte04);
+    font-family: var(--fontenum);
     font-size: 16px;
     margin-top: 15px ;
     margin-left: 10px;
@@ -141,4 +139,12 @@ main h1.destaque{
 .more:hover{
     text-decoration: underline;
     transition: .3s;
+}
+
+#title2{
+    font-family: var(--fonte03);
+    font-weight: 600;
+    font-size: 38px;
+    text-align: center;
+    margin: 40px;
 }
