@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* ESTILO PARA AS TELAS */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+
+}
+
+header {
+    background-color: rgb(153, 153, 153);
+}
+header h1 {
+    text-align: center;
+}
+menu ul{
+    list-style-type: none;
+    background-color: rgb(107, 107, 107);
+}
+
+menu li{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
