@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* CONFIGURAÇÂO DO SITE EM PE (PORTRAIT) */
+
+body{
+    background-image: url(../images/cev-portrait.jpg);
+    background-position: center bottom;
+}
