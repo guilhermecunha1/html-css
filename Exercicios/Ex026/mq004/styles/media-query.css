@@ -2,3 +2,55 @@
 
 /* VERSÂO PARA TODAS DEMAIS MIDIAS */
 
+
+/*VERSÂO PRA IMPRESSORA
+------------------------*/
+@media print{
+
+}
+
+/*VERSÂO M (MEDIUM DEVICES)
+------------------------------------*/
+@media only screen and (min-width: 768px) {
+    body {
+        background: url(../images/back-tablet.jpg);
+
+    }
+
+    img#phone{ display: none;}
+    img#tablet{display: block;}
+    img#print{display: none;}
+    img#pc{display: none;}
+    img#tv{display: none;}
+    
+}
+
+/* VERSÂO L (LARGE DEVICES)
+--------------------------------------------*/
+@media only screen and (min-width: 992px)  {
+
+    body{
+        background: url(../images/back-pc.jpg);
+        background-position: center center;
+    }
+    img#phone{ display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#pc{display: block;}
+    img#tv{display: none;}
+    
+}
+
+/*VERSÂO EL (EXTRA LARGE DEVICES)
+----------------------------------*/
+@media only screen and (min-width: 1200px) {
+    body{
+        background: url(../images/back-tv.jpg);
+        background-position: center center;
+    }
+    img#phone{ display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#pc{display: none;}
+    img#tv{display: block;}
+}
