@@ -26,8 +26,24 @@ header h1 {
     color: #800e13;
 }
 
-menu{
+#burguer{
+    background-color: #bd1624;
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ffffff73;
+}
+
+#burguer:hover{
+    background-color: #fd1e30;
+    transition: .3s;
+
+}
+
+menu{
+    display: none;
 }
 
 menu ul {
@@ -39,7 +55,7 @@ menu a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: #640d14;
+    background-color: #86101a;
     color: white;
     border-top: 1px solid #ffffffbb;
 }
