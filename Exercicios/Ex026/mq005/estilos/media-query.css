@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CONFIGURAÇÔES DE MEDIA QUERIES*/
+
+
+
+
+/* VERSÂO M (MEDIUM DEVICES)*/
+@media only screen and (min-width: 768px) {
+    #burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+        
+    }
+
+    menu li {
+        display: inline-block;
+        
+    }
+
+    menu a {
+        background-color: white;
+        color: #000000;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    menu a:hover{
+        color: #c50919;
+        background-color: white;
+    }
+    main{
+        width: 768px;
+    }
+}
