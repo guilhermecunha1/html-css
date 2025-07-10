@@ -75,7 +75,7 @@ form input.esc{
     height: 25px;
     border-radius: 8px;
     text-indent: 5px;
-    border: 1px solid gray;
+    border: 2px solid gray;
 }
 
 p#entrar > input {
