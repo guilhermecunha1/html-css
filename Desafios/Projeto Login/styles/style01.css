@@ -81,7 +81,7 @@ form input.esc{
 p#entrar > input {
     display: block;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 40px;
     width: 175px;
     height: 35px;
     border-radius: 25px;
@@ -97,4 +97,20 @@ p#entrar > input:hover {
     border-color: white;
     transition: .3s;
 
+}
+
+div#esqueci{
+    text-align: center;
+    margin-top: 10px;
+}
+div#esqueci > a {
+    color: rgb(99, 99, 99);
+    text-decoration: none;
+    
+}
+
+div#esqueci > a:hover{
+    color: rgb(129, 1, 1);
+    text-decoration: underline 2px;
+    transition: .2s;
 }
