@@ -113,28 +113,4 @@ button:hover{
     transition: .4s;
 }
 
-#imagens{
-    display: block;
-    margin: 20px;
-
-
-
-}
-#imagens img {
-    width: 200px;
-    height:120px;
-    margin-left: 20px;
-    border-radius: 15px;
-}
-section{
-    margin-top: 50px;
-
-}
-section h1.destaque {
-    margin: auto;
-    text-align: center;
-    font-size: 22px;
-    font-family: "Nunito", monospace;
-
-}
 
