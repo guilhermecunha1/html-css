@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 
 *{
@@ -12,13 +12,27 @@ body{
     font-family:  "DM Serif Text", serif;
 }
 
+header.normal{ 
+    background-color: #4b3222;
+    color: #ffedd8;
+    padding: 15px;
+}
+
+section.flex-content{
+    background-color: #e6ccb2 ;
+    color: #402401;
+    
+}
+
 .normal > h1 {
-    font-size: 40px;
-    font-family: "Parisienne", cursive;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: "Roboto Flex", sans-serif;
+    text-shadow: 1px 1px 5px #ffffff71;
 }
 
 .normal > h2 {
-    font-family: "Parisienne", cursive;
+    font-family: "Roboto Flex", sans-serif;
     font-size: 30px;
 }
 
