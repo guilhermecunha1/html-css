@@ -12,7 +12,7 @@ body{
     font-family:  "DM Serif Text", serif;
 }
 
-header.normal{ 
+.normal{ 
     background-color: #4b3222;
     color: #ffedd8;
     padding: 15px;
