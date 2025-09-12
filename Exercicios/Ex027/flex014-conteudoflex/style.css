@@ -12,15 +12,27 @@ body{
     font-family:  "DM Serif Text", serif;
 }
 
-.normal{ 
+p, h1, h2 {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+header.normal{ 
     background-color: #4b3222;
     color: #ffedd8;
     padding: 15px;
 }
 
+section.normal{
+    background-color: #ffedd8;
+    color: #7f5539;
+    padding: 20px;
+}
+
 section.flex-content{
     background-color: #e6ccb2 ;
     color: #402401;
+    padding: 20px;
     
 }
 
