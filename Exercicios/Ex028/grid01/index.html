@@ -10,14 +10,11 @@
             height: 300px;
 
             display: grid;
-            grid-template-columns: auto auto auto;
-            grid-template-rows: auto auto auto;
+           grid-template: auto auto auto / auto auto auto;
             gap: 10px;
 
-            align-items: stretch;
-            justify-items: stretch;
-            align-content: space-evenly;
-            justify-content: stretch;
+            place-items: stretch stretch;
+            place-content: space-between stretch;
             
         }
         .item{
