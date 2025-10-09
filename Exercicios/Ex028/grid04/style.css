@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+div.container{
+    /*Configurações de Estilo*/
+    border: 3px dashed rgb(0, 0, 0);
+
+
+
+    /* Configurações de Grid*/
+    display: grid;
+    gap: 5px;
+    grid-template: repeat(3, 100px) / repeat(4, 1fr);
+}
+
+div.caixa1{
+    background-color:  red;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+div.caixa2{
+    background-color: blue;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1 ;
+    grid-column-end: 3 ;
+}
+
+div.caixa3{
+    background-color: green;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+}
