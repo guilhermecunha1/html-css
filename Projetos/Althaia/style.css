@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #cae3f8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    /*Configurações de Design*/
+    background-color: white;
+
+
+    /*Configurações de Posição*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header > h1 {
+    color: #0d47a1;
+    font-size: 2.5em;
+}
+
+header > nav {
+    display: flex;
+    gap: 40px;
+    
+}
+
+header > nav > a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #0d47a1;
+
+}
+
+header > nav > a:hover{
+    text-decoration: underline;
+    transition: .3s;
+}
+
+#conta{
+    display: flex;
+    gap: 30px;
+}
+
+#conta > h2{
+    color: #0d47a1;
+    padding: 5px;
+
+}
+
+#destaque{
+    border: 3px solid #1565c0;
+    border-radius: 15px;
+}
+
+/*Configurações de grid layout*/
+
+main{
+    background-color: #cae3f8;
+    margin: auto;
+    margin-top: 50px;
+    width: 90vw;
+
+
+    display: grid;
+    grid-template: repeat(5, 135px) / repeat(4, 1fr);
+    gap: 15px;
+    
+}
+
+main > div {
+    border-radius: 25px;
+}
+
+div.item1{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 1.8em;
+
+    /*Grid Area*/
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+div.item1 button {
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+
+    background-color: white;
+    border: 3px solid #2196f3;
+    border-radius: 25px;
+    font-size: 0.6em;
+}
+
+div.item1 button:hover{
+    background-color: #2196f3 ;
+    color: white;
+    transition: .2s;
+}
+
+div.item2{
+    background-color: #1565c0;
+    color: white;
+    text-align: center;
+
+    /*Grid Area*/
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+div.item2 h3{
+    font-size: 4.4em;
+}
+
+div.item3{
+    background-color: rgb(255, 255, 255);
+    background: url(images/oculos-horizontal.jpeg) no-repeat left center ;
+    background-size: cover;
+
+    /*Grid Area*/
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+div.item4{
+
+    background-color: rgb(255, 255, 255);
+    background: url(images/oculos-vertical.jpeg) no-repeat center center;
+    background-size: cover;
+
+    /*Grid Area*/
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.destaque2{
+    color: #2196f3;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #082756;
+    color: white;
+    height: 70px;
+    font-size: 0.6em;
+}
