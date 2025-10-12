@@ -49,6 +49,7 @@ header > nav > a:hover{
 
 #conta{
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 
@@ -59,7 +60,7 @@ header > nav > a:hover{
 }
 
 #destaque{
-    border: 3px solid #1565c0;
+    border: 2px solid #1565c0;
     border-radius: 15px;
 }
 
