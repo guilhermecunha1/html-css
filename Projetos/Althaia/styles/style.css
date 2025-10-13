@@ -90,10 +90,7 @@ div.item1{
     font-size: 1.8em;
 
     /*Grid Area*/
-    grid-row-start: 1;
-    grid-row-end: 5;
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-area: 1 / 1 / 5 / 4;
 
 }
 
@@ -120,10 +117,7 @@ div.item2{
     text-align: center;
 
     /*Grid Area*/
-    grid-row-start: 5;
-    grid-row-end: 6;
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-area: 5 / 1 / 6 / 3;
 }
 
 div.item2 h3{
@@ -132,27 +126,21 @@ div.item2 h3{
 
 div.item3{
     background-color: rgb(255, 255, 255);
-    background: url(images/oculos-horizontal.jpeg) no-repeat left center ;
+    background: url(../images/oculos-horizontal.jpeg) no-repeat left center ;
     background-size: cover;
 
     /*Grid Area*/
-    grid-row-start: 5;
-    grid-row-end: 6;
-    grid-column-start: 3;
-    grid-column-end: 5;
+    grid-area: 5 / 3 / 6 / 5;
 }
 
 div.item4{
 
     background-color: rgb(255, 255, 255);
-    background: url(images/oculos-vertical.jpeg) no-repeat center center;
+    background: url(../images/oculos-vertical.jpeg) no-repeat center center;
     background-size: cover;
 
     /*Grid Area*/
-    grid-row-start: 1;
-    grid-row-end: 5;
-    grid-column-start: 4;
-    grid-column-end: 5;
+    grid-area: 1 / 4 / 5 / 5;
 }
 
 .destaque2{

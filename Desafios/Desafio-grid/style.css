@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    display: grid;
+    grid-template: 200px 100px 400px 100px / 1fr 2fr 1fr;
+    gap: 5px;
+}
+
+body > div {
+    border-radius: 15px;
+}
+
+#topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #264653;
+    color: white;
+    font-size: 2em;
+
+
+
+    grid-area: 1 / 1 / 2 / -1;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    background-color: #2a9d8f;
+
+
+    grid-area: 2 / 1 / 3 / -1;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#menu a:hover{
+    color: #e9c46a;
+    text-decoration: underline;
+    transition: .3s;
+}
+
+#principal{
+    background-color: #e9c46a;
+    grid-area: 3 / 1 / 4 / 3;
+}
+
+#secundario{
+    background-color: #f4a261;
+    background: url(images/por-do-sol.jpeg) no-repeat center center;
+    background-size: cover;
+    grid-area: 3 / 3 / 4 / -1 ;
+}
+
+#rodape{
+    background-color: #e76f51;
+    grid-area: 4 / 1 / -1 / -1;
+}
