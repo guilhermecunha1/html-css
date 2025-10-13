@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 
 *{
@@ -9,7 +10,7 @@
 
 html, body{
     background-color: #cae3f8;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:"Manrope", sans-serif;
 }
 
 header{
@@ -60,7 +61,7 @@ header > nav > a:hover{
 }
 
 #destaque{
-    border: 2px solid #1565c0;
+    border: 3px solid #1565c0;
     border-radius: 15px;
 }
 
