@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* 
+  Variáveis para cores:
+  --fundo-principal
+  --texto
+  --texto-inverso
+  --destaque
+  --destaque-inverso
+  --fundo-card
+
+  --cor1 #ddd8c4
+  --cor2 #a3c9a8
+  --cor3 #84b59f
+  --cor4 #69a297
+  --cor5 #50808e
+*/
+
+body{
+  background-color: #ddd8c4;
+  color: #50808e;
+
+}
