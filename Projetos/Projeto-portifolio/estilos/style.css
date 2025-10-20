@@ -1,14 +1,7 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 /* 
-  Variáveis para cores:
-  --fundo-principal
-  --texto
-  --texto-inverso
-  --destaque
-  --destaque-inverso
-  --fundo-card
-
   --cor1 #ddd8c4
   --cor2 #a3c9a8
   --cor3 #84b59f
@@ -16,8 +9,52 @@
   --cor5 #50808e
 */
 
-body{
-  background-color: #ddd8c4;
-  color: #50808e;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+:root{
+  --fundo-principal: #ddd8c4;
+  --texto: #50808e;
+  --texto-inverso: #ddd8c4;
+  --destaque: #69a297;
+  --destaque-inverso: #a3c9a8;
+  --fundo-card: #ddd8c4;
+}
+
+body{
+  font-family:"Manrope", sans-serif;
+  line-height: 1.5em;
+  background-color: var(--fundo-principal);
+  color: var(--texto);
+}
+
+header{
+  background-color: var(--destaque);
+  color: var(--texto-inverso);
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav#menu ul{
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav#menu a{
+  text-decoration: none;
+  color: var(--texto-inverso);
+  font-weight: 600;
+  padding: 12px 15px;
+  border-radius: 5px;
+}
+
+nav#menu a:hover{
+  background-color: rgba(255, 255, 255, 0.255);
+  color: var(--texto);
+  transition: .2s;
 }
