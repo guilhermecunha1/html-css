@@ -2,11 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 /* 
+  claro:
   --cor1 #ddd8c4
   --cor2 #a3c9a8
   --cor3 #84b59f
   --cor4 #69a297
   --cor5 #50808e
+
+  escuro:
+  #555358
+  #143642
+  #D8D4D5
+  #46B1C9
+  #5B797F
 */
 
 *{
@@ -21,7 +29,7 @@
   --texto-inverso: #ddd8c4;
   --destaque: #69a297;
   --destaque-inverso: #a3c9a8;
-  --fundo-card: #ddd8c4;
+  --fundo-card: #50808e;
 }
 
 body{
@@ -49,6 +57,7 @@ nav#menu a{
   text-decoration: none;
   color: var(--texto-inverso);
   font-weight: 600;
+  font-size: 1.3em;
   padding: 12px 15px;
   border-radius: 5px;
 }
@@ -57,4 +66,57 @@ nav#menu a:hover{
   background-color: rgba(255, 255, 255, 0.255);
   color: var(--texto);
   transition: .2s;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 90vw 1fr;
+}
+
+section#ficha{
+  background-color: var(--fundo-card);
+  color: var(--texto-inverso);
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 15px;
+  grid-column: 2;
+}
+
+section#ficha img.foto{
+  width: 200px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid var(--fundo-card);
+  outline: 5px solid var(--destaque-inverso);
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+section#ficha h1{
+  color: var(--destaque-inverso);
+  margin: 10px 0px;
+  text-align: center;
+}
+
+div#social{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-size: 1.7em;
+  margin: 10px 0px;
+}
+
+div#social a {
+  text-decoration: none;
+  color: var(--destaque-inverso);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+div#social a:hover{
+  background-color: rgba(255, 255, 255, 0.250);
+  color: white;
+  transition: .3s;
 }
