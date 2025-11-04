@@ -60,12 +60,12 @@ nav#menu a{
   font-size: 1.3em;
   padding: 12px 15px;
   border-radius: 5px;
+  transition: .4s;
 }
 
 nav#menu a:hover{
   background-color: rgba(255, 255, 255, 0.255);
   color: var(--texto-inverso);
-  transition: .2s;
 }
 
 main{
@@ -105,7 +105,7 @@ div#social{
   display: flex;
   gap: 20px;
   justify-content: center;
-  font-size: 1.7em;
+  font-size: 2em;
   margin: 10px 0px;
 }
 
@@ -113,13 +113,14 @@ div#social a {
   text-decoration: none;
   color: var(--destaque);
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 20px;
+  transition: .5s;
 }
 
 div#social a:hover{
   background-color: rgba(255, 255, 255, 0.250);
   color: white;
-  transition: .3s;
+  
 }
 
 section#detalhes {
@@ -188,6 +189,24 @@ article#video .video-container{
   height: 10px;
   background-color: var(--destaque-inverso);
   border-radius: 4px;
+}
+
+#formacao-container{
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 15px;
+}
+
+#formacao-container .curso{
+  background-color: var(--destaque-inverso);
+  border-radius: 10px;
+  border-left: 6px solid var(--destaque);
+  padding: 5px;
+   transition: .4s;
+}
+
+#formacao-container .curso:hover{
+  border-left-width: 20px;
 }
 
 @media screen and (min-width: 768px) {
