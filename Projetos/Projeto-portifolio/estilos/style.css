@@ -25,10 +25,10 @@
 
 :root{
   --fundo-principal: #ddd8c4;
-  --texto: #50808e;
-  --texto-inverso: #ddd8c4;
-  --destaque: #69a297;
-  --destaque-inverso: #a3c9a8;
+  --texto: #ffffff;
+  --texto-inverso: #50808e;
+  --destaque: #a3c9a8;
+  --destaque-inverso: #69a297;
   --fundo-card: #50808e;
 }
 
@@ -40,7 +40,7 @@ body{
 }
 
 header{
-  background-color: var(--destaque);
+  background-color: var(--destaque-inverso);
   color: var(--texto-inverso);
   padding: 15px;
   display: flex;
@@ -55,7 +55,7 @@ nav#menu ul{
 
 nav#menu a{
   text-decoration: none;
-  color: var(--texto-inverso);
+  color: var(--texto);
   font-weight: 600;
   font-size: 1.3em;
   padding: 12px 15px;
@@ -64,7 +64,7 @@ nav#menu a{
 
 nav#menu a:hover{
   background-color: rgba(255, 255, 255, 0.255);
-  color: var(--texto);
+  color: var(--texto-inverso);
   transition: .2s;
 }
 
@@ -75,7 +75,7 @@ main{
 
 section#ficha{
   background-color: var(--fundo-card);
-  color: var(--texto-inverso);
+  color: var(--texto);
   padding: 25px;
   border-radius: 10px;
   margin: 15px 0px;
@@ -89,14 +89,14 @@ section#ficha img.foto{
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid var(--fundo-card);
-  outline: 5px solid var(--destaque-inverso);
+  outline: 5px solid var(--destaque);
   display: block;
   margin: auto;
   margin-bottom: 20px;
 }
 
 section#ficha h1{
-  color: var(--destaque-inverso);
+  color: var(--destaque);
   margin: 10px 0px;
   text-align: center;
 }
@@ -111,7 +111,7 @@ div#social{
 
 div#social a {
   text-decoration: none;
-  color: var(--destaque-inverso);
+  color: var(--destaque);
   padding: 10px;
   border-radius: 5px;
 }
@@ -129,13 +129,13 @@ section#detalhes {
 
 article{
   background-color: var(--fundo-card);
-  padding: 20px;
+  padding: 25px;
   margin-bottom: 20px;
   border-radius: 10px;
 }
 
 article h2{
-  color: var(--destaque-inverso);
+  color: var(--destaque);
   margin-bottom: 10px;
 }
 
@@ -154,3 +154,45 @@ article#video .video-container{
   height: 100%;
   border-radius: 5px;
 }
+
+#skill-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+#skill-container .info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#skill-container .nome{
+  font-weight: bold;
+  color: var(--texto);
+}
+
+#skill-container .porcent{
+  font-weight: bold;
+  color: var(--destaque);
+}
+
+#skill-container .barra{
+  width: 100%;
+  height: 10px;
+  background-color: var(--fundo-principal);
+  border-radius: 10px;
+}
+
+#skill-container .progresso{
+  height: 10px;
+  background-color: var(--destaque-inverso);
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  #skill-container{
+    grid-template-columns: 1fr 1fr;
+  }
+} 
+  
