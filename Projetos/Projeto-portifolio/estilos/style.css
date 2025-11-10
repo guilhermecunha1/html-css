@@ -74,6 +74,8 @@ nav#menu a:hover{
 main{
   display: grid;
   grid-template-columns: 1fr 90vw 1fr;
+  gap: 15px
+  ;
 }
 
 section#ficha{
@@ -106,7 +108,6 @@ section#ficha h1{
 
 div#social{
   display: flex;
-  gap: 20px;
   justify-content: center;
   font-size: 2em;
   margin: 10px 0px;
@@ -127,6 +128,7 @@ div#social a:hover{
 }
 
 section#detalhes {
+  margin: 15px 0;
   grid-column: 2;
 
 }
@@ -250,6 +252,23 @@ footer{
 }
 
 @media screen and (min-width: 768px) {
+
+  main{
+      grid-template-columns: auto 300px 1fr auto;
+  }
+
+  section#ficha{
+    grid-column: 2 / 3;
+    height: fit-content;
+    position: sticky;
+    top: 75px;
+  }
+
+  section#detalhes{
+    grid-column: 3 / 4;
+
+  }
+
   #skill-container{
     grid-template-columns: 1fr 1fr;
   }
